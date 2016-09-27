@@ -2,19 +2,17 @@
 # Изменения API JavaScript для Office
 В интерфейс API JavaScript для Office периодически добавляются новые и обновленные объекты, методы, свойства, события и перечисления для расширения возможностей ваших Надстройки Office. Используйте следующие ссылки, чтобы ознакомиться с новыми и обновленными элементами API.
 
- _**Область применения:** Access apps for SharePoint | apps for Office | Excel | Надстройки Office | Outlook | PowerPoint | Project | Word_
+Для разработки надстроек с использованием новых элементов API вам потребуется [обновить файлы API JavaScript для Office в проекте](../docs/develop/update-your-javascript-api-for-office-and-manifest-schema-version.md).
 
-Для разработки надстроек с использованием новых элементов API вам потребуется [обновить файлы JavaScript API для Office в проекте](../docs/develop/update-your-javascript-api-for-office-and-manifest-schema-version.md).
-
-Сведения обо всех элементах API, в том числе о тех, которые не были изменены по сравнению с предыдущими версиями, см. в статье [API JavaScript для Office](../reference/javascript-api-for-office.md).
+Сведения обо всех элементах API, в том числе о тех, которые не изменились по сравнению с предыдущими версиями, см. в статье [API JavaScript для Office](../reference/javascript-api-for-office.md).
 
 
-## Новые и обновленные API
+## Новые и обновленные интерфейсы API
 
  **Новые и обновленные объекты**
 
 
-|**Object**|**Описание**|**Объект **|
+|**Object**|**Описание**|**Объект**|
 |:-----|:-----|:-----|
 |[Элемент](../reference/outlook/Office.context.mailbox.item.md)|Добавленная или обновленная версия<br><ul><li><p>Методы <a href="../reference/outlook/Office.context.mailbox.item.md#getSelectedDataAsync" target="_blank">getSelectedDataAsync</a> и <a href="../reference/outlook/Office.context.mailbox.item.md#setSelectedDataAsync" target="_blank">setSelectedDataAsync</a> для поддержки считывания выделенного пользователем фрагмента и его замены в теме и тексте сообщения или встречи.</p></li><li><p>Методы <a href="../reference/outlook/Office.context.mailbox.item.md#displayReplyAllForm" target="_blank">displayReplyAllForm</a> и <a href="../reference/outlook/Office.context.mailbox.item.md#displayReplyForm" target="_blank">displayReplyForm</a> для поддержки добавления вложения в форму ответа для встречи.</p></li></ul>|Mailbox 1.2|
 |[Элемент](../reference/outlook/Office.context.mailbox.item.md)|Обновлен так, чтобы включать методы и поля для создания надстроек Outlook, активирующихся в режиме создания. |1.1|

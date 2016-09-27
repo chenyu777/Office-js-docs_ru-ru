@@ -23,7 +23,7 @@
 Чтобы определять этот API в среде выполнения, используйте приведенный ниже код.
 
 ```js
- if (Office.context.requirements.isSetSupported('DialogAPI', '1.1')) 
+ if (Office.context.requirements.isSetSupported('DialogAPI', 1.1)) 
     {  
          // Use Office UI methods; 
     } 

@@ -1,6 +1,6 @@
 # Справочник по API JavaScript для надстроек OneNote
 
-*Применяется для OneNote Online*
+*Область применения: OneNote Online*
 
 По ссылкам ниже расположены статьи, в которых рассказывается об объектах OneNote высокого уровня, доступных в API. В этих статьях описаны свойства, связи и методы, доступные для соответствующих объектов. Чтобы получить дополнительные сведения, перейдите по этим ссылкам. 
     
@@ -50,5 +50,5 @@
 
 - [Обзор создания кода с помощью API JavaScript для OneNote](../../docs/onenote/onenote-add-ins-programming-overview.md)
 - [Создание первой надстройки OneNote](../../docs/onenote/onenote-add-ins-getting-started.md)
-- [Пример надстройки Rubric Grader](https://github.com/OfficeDev/OneNote-Add-in-Rubric-Grader-Preview)
+- [Пример надстройки Rubric Grader](https://github.com/OfficeDev/OneNote-Add-in-Rubric-Grader)
 - [Обзор платформы надстроек Office](https://dev.office.com/docs/add-ins/overview/office-add-ins)

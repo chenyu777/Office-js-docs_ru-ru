@@ -14,9 +14,6 @@ Office.context
 
 ## Элементы
 
-
-**Свойства**
-
 |||
 |:-----|:-----|
 |Имя|Описание|
@@ -26,6 +23,7 @@ Office.context
 |[document](../../reference/shared/office.context.document.md)|Получает объект, представляющий документ, с которым взаимодействует контентная надстройка или надстройка области задач.|
 |[mailbox](../../reference/shared/office.context.mailbox.md)|Получает объект **mailbox**, который предоставляет доступ к элементам API, предназначенным для надстроек Outlook.|
 |[officeTheme](../../reference/shared/office.context.officetheme.md)|Предоставляет доступ к свойствам цветов темы Office.|
+|[Пользовательский интерфейс](../../reference/shared/officeui)|Предоставляет объекты и методы, которые можно использовать для создания компонентов пользовательского интерфейса, например диалоговых окон, и управления ими.|
 |[roamingSettings](../../reference/shared/office.context.roamingsettings.md)|Получает объект, который представляет сохраненные настраиваемые параметры надстройки.|
 |[touchEnabled](../../reference/shared/office.context.touchenabled.md)|Получает сведения о том, запущена ли надстройка в ведущем приложении Office, поддерживающем сенсорный ввод.|
 

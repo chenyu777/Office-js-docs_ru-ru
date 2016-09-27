@@ -42,7 +42,7 @@
 		<Item text="Асинхронное программирование в случае надстроек Office" url="develop/asynchronous-programming-in-office-add-ins" SEODescription="Разрабатывайте надстройки Office, используя вложенные обратные вызовы и шаблоны Promise, а также шаблоны асинхронного программирования, которые поддерживает API JavaScript для Office." />
 		<Item text="Сохранение состояния и параметров" url="develop/persisting-add-in-state-and-settings" SEODescription="Узнайте о вариантах сохранения состояния и параметров для надстроек области задач, контентных надстроек и надстроек Outlook." />
 	</Item>
-	<Item text="Использование OAuth в надстройке Office" url="develop/use-the-oauth-authorization-framework-in-an-office-add-in" SEODescription="Используйте платформу авторизации OAuth 2.0 в своих надстройках Office." />
+	<Item text="Авторизация внешних служб" url="develop/auth-external-add-ins" SEODescription="Используйте платформу авторизации OAuth 2.0 в своих надстройках Office." />
 	<Item text="Конфиденциальность и безопасность" url="develop/privacy-and-security" SEODescription="Защита надстроек Office обеспечена благодаря платформе среды выполнения, многоуровневой модели разрешений, а также возможности контролировать использование памяти, ЦП и сетевых ресурсов." />
 	<Item text="Обход ограничений, связанных с политикой единого домена" url="develop/addressing-same-origin-policy-limitations" SEODescription="Кратко рассмотрены способы обхода ограничений, связанных с политикой единого домена, которые не позволяют скрипту, загруженному из одного домена, получать свойства документа из другого домена или управлять ими в надстройке Office." />
 	<Item text="Локализация" url="develop/localization" SEODescription="Предоставление содержимого, зависящего от языковых параметров, в надстройке Office, включая строки пользовательского интерфейса, описание, значок, исходный файл, имя надстройки, а также формат даты и времени." />
@@ -119,13 +119,13 @@
 		<Item text="Проверка токена удостоверения с помощью PHP" url="outlook/use-php-to-validate-an-identity-token" SEODescription="Узнайте об использовании PHP для проверки токена удостоверения Exchange 2013, который связывает учетные записи электронной почты, принадлежащие пользователям надстройки Outlook, с данными, предоставляемыми службой." Scope="outlook" />
 		<Item text="Проверка подлинности пользователя с помощью токена удостоверения" url="outlook/authenticate-a-user-with-an-identity-token" SEODescription="См. пример кода, где показано, как объект проверки подлинности сопоставляет уникальное удостоверение, представленное токеном удостоверения, с набором учетных данных для службы." Scope="outlook" />    
     	 </Item>
-	</Item>
 	<Item text="Тестирование и советы" url="outlook/testing-and-tips" FriendlyUrl="outlook/testingtesting-and-tips" Scope="outlook">
 		<Item text="Поддержка надстройки Outlook в Outlook для Mac" url="outlook/compare-outlook-add-in-support-in-outlook-for-mac" SEOKeyword="При переходе по ссылкам открывается сайт dev.office.com.  Исправлен маркированный список в таблице." Scope="outlook" />
 		<Item text="Советы по обработке значений дат в надстройках Outlook" url="outlook/tips-for-handling-date-values-in-outlook-add-ins" Scope="outlook" SEODescription="Используйте объект Date для обработки значений дат в надстройках Outlook." />
 		<Item text="Ограничения для активации и API JavaScript для надстроек Outlook" url="outlook/limits-for-activation-and-javascript-api-for-outlook-add-ins" Scope="outlook" SEODescription="При создании надстройки Outlook следуйте руководствам по использованию API и активации." />
 		<Item text="Устранение неполадок при активации надстроек Outlook" url="outlook/troubleshoot-outlook-add-in-activation" SEODescription="Активация надстройки Outlook зависит от контекста и основывается на правилах в манифесте надстройки. Узнайте причины, по которым установленная надстройка не может активироваться в Outlook." Scope="outlook" />
-	</Item>    
+	 </Item>  
+	</Item>
   <Item text="PowerPoint" url="powerpoint/powerpoint-add-ins" Scope="powerpoint">
 	<Item text="Использование тем документов в надстройках PowerPoint" url="powerpoint/use-document-themes-in-your-powerpoint-add-ins" Scope="powerpoint" SEODescription="Применение тем в надстройках PowerPoint" />
 	<Item text="Получение всего документа из надстройки для PowerPoint или Word" url="develop/get-the-whole-document-from-an-add-in-for-powerpoint-or-word" SEODescription="Создайте надстройку для PowerPoint или Word, которая выполняет публикацию в удаленном расположении." />   
@@ -141,9 +141,9 @@
   </Item>
   
   <Item text="OneNote" url="onenote" Scope="onenote">
-	<Item text="Обзор создания кода с помощью API JavaScript для OneNote (предварительная версия)" url="onenote/onenote-add-ins-programming-overview" SEODescription="Используйте интерфейсы API JavaScript для создания надстроек OneNote." Scope="onenote" />
-	<Item text="Создание первой надстройки OneNote (предварительная версия)" url="onenote/onenote-add-ins-getting-started" SEODescription="Создайте простую надстройку области задач для OneNote." Scope="onenote" />
-	<Item text="Работа с содержимым страницы в OneNote (предварительная версия)" url="onenote/onenote-add-ins-page-content" SEODescription="Используйте API JavaScript для OneNote для работы с контентом на странице." Scope="onenote" />
+	<Item text="Обзор создания кода с помощью API JavaScript для OneNote" url="onenote/onenote-add-ins-programming-overview" SEODescription="Используйте интерфейсы API JavaScript для создания надстроек OneNote." Scope="onenote" />
+	<Item text="Создание первой надстройки OneNote" url="onenote/onenote-add-ins-getting-started" SEODescription="Создайте простую надстройку области задач для OneNote." Scope="onenote" />
+	<Item text="Работа с содержимым страницы в OneNote" url="onenote/onenote-add-ins-page-content" SEODescription="Используйте API JavaScript для OneNote для работы с контентом на странице." Scope="onenote" />
   </Item>
   
   <Item text="Project" url="project" Scope="project">

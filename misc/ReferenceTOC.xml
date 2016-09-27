@@ -24,7 +24,7 @@
 	
 	<Item text="HighResolutionIconUrl" url="manifest/highresolutioniconurl" SEODescription="Указывает URL-адрес изображения, которое используется для представления надстройки Office в пользовательском интерфейсе вставки и Магазине Office на экранах с высоким DPI." />
     <Item text="Ведущее приложение" url="manifest/host" SEODescription="Указывает тип ведущего приложения Office, поддерживаемый надстройкой Office." />
-    
+    <Item text="Ведущие приложения" url="manifest/hosts" SEODescription="Указывает клиентское приложение Office, в котором будет активирована надстройка Office." />
 	<Item text="IconUrl" url="manifest/iconurl" SEODescription="Указывает URL-адрес изображения, которое используется для представления надстройки Office в пользовательском интерфейсе вставки и Магазине Office." />
     <Item text="Id" url="manifest/id" SEODescription="Указывает уникальный идентификатор надстройки Office как GUID." />
     <Item text="Метод" url="manifest/method" Scope="excel, word, powerpoint, access, project" SEODescription="Указывает отдельный метод из API JavaScript для Office, необходимый для активации надстройки Office." />
@@ -395,23 +395,23 @@
   </Item>
   
   <Item text="OneNote" url="onenote/onenote-add-ins-javascript-reference" Scope="onenote">
-    <Item text="Приложение" url="onenote/application" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Error" url="onenote/error" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-	<Item text="Записная книжка" url="onenote/notebook" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Notebookcollection" url="onenote/notebookcollection" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Page" url="onenote/page" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Pagecollection" url="onenote/pagecollection" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Pagecontent" url="onenote/pagecontent" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Pagecontentcollection" url="onenote/pagecontentcollection" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Paragraph" url="onenote/paragraph" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Paragraphcollection" url="onenote/paragraphcollection" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Richtext" url="onenote/richtext" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Раздел" url="onenote/section" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Sectioncollection" url="onenote/sectioncollection" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Sectiongroup" url="onenote/sectiongroup" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Sectiongroupcollection" url="onenote/sectiongroupcollection" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Структура" url="onenote/outline" SEODescription="Справочник по предварительной версии надстроек OneNote." />
-    <Item text="Image" url="onenote/image" SEODescription="Справочник по предварительной версии надстроек OneNote." />
+    <Item text="Приложение" url="onenote/application" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Ошибка" url="onenote/error" SEODescription="Справочник по надстройкам OneNote." />
+	<Item text="Записная книжка" url="onenote/notebook" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Notebookcollection" url="onenote/notebookcollection" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Страница" url="onenote/page" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Pagecollection" url="onenote/pagecollection" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Pagecontent" url="onenote/pagecontent" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Pagecontentcollection" url="onenote/pagecontentcollection" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Абзац" url="onenote/paragraph" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Paragraphcollection" url="onenote/paragraphcollection" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Richtext" url="onenote/richtext" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Раздел" url="onenote/section" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Sectioncollection" url="onenote/sectioncollection" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Sectiongroup" url="onenote/sectiongroup" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Sectiongroupcollection" url="onenote/sectiongroupcollection" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Структура" url="onenote/outline" SEODescription="Справочник по надстройкам OneNote." />
+    <Item text="Изображение" url="onenote/image" SEODescription="Справочник по надстройкам OneNote." />
   </Item>  
   <Item text="Общий API" url="shared/shared-api">
     <Item text="API JavaScript для Office" url="javascript-api-for-office" SEODescription="API JavaScript для Office включает объекты, методы, свойства, события и перечисления, которые можно использовать в коде надстроек Office." />
@@ -444,7 +444,8 @@
       <Item text="AsyncResult.status" url="shared/asyncresult.status" SEODescription="Получает состояние асинхронной операции." />
       <Item text="AsyncResult.value" url="shared/asyncresult.value" SEODescription="Получает полезные данные или содержимое асинхронной операции (если имеется)." />
     </Item>
-    <Item text="Контекст " url="shared/office.context" FriendlyUrl="reference/common/officeoffice.context">
+    <Item text="Контекст " url="shared/context">
+      <Item text="office.context" url="shared/office.context" SEODescription="Возвращает объект контекста, представляющий среду выполнения надстройки " />
       <Item text="office.context.commerceAllowed " url="shared/office.context.commerceallowed" FriendlyUrl="reference/common/contextoffice.context.commerceallowed" SEODescription="Получает сведения о том, запущена ли надстройка на платформе, допускающей добавление ссылок на внешние системы платежей." />
       <Item text="office.context.contentLanguage" url="shared/office.context.contentlanguage" SEODescription="Получает языковой стандарт (язык), указанный пользователем для редактирования документа или элемента." />
       <Item text="office.context.displaylanguage" url="shared/office.context.displaylanguage" SEODescription="Получает определенную пользователем региональную настройку (язык) для пользовательского интерфейса ведущего приложения Office." />

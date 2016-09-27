@@ -113,5 +113,5 @@ function getSelectionFromPage() {
 
 - [Создание первой надстройки OneNote](onenote-add-ins-getting-started.md)
 - [Справочник по API JavaScript для OneNote](../../reference/onenote/onenote-add-ins-javascript-reference.md)
-- [Пример надстройки Rubric Grader](https://github.com/OfficeDev/OneNote-Add-in-Rubric-Grader-Preview)
+- [Пример надстройки Rubric Grader](https://github.com/OfficeDev/OneNote-Add-in-Rubric-Grader)
 - [Обзор платформы надстроек Office](https://dev.office.com/docs/add-ins/overview/office-add-ins)
